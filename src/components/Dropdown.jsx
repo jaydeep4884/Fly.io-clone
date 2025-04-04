@@ -37,7 +37,7 @@ const Tab = ({ children, tab, setSelected, selected }) => (
     id={`tab-${tab}`}
     onMouseEnter={() => setSelected(tab)}
     className={`flex items-center rounded-full px-4 py-2 text-sm font-medium transition-colors ${
-      selected === tab ? "text-purple-600 font-medium" : "text-gray-600"
+      selected === tab ? " text-purple-600 font-medium" : "text-gray-900"
     }`}
   >
     {children}
@@ -80,7 +80,7 @@ const Nub = ({ left }) => (
 );
 
 const Products = () => (
-  <div className="flex flex-col  text-gray-700">
+  <div className="flex flex-col text-gray-900">
     {[
       "Blog",
       "Phoenix Files",
@@ -92,7 +92,7 @@ const Products = () => (
       <a
         key={item}
         href="/"
-        className="px-3 py-2 rounded-md hover:bg-gray-100 hover:font-semibold"
+        className="px-3 py-2 rounded-md font-medium hover:bg-gray-100 hover:text-purple-600"
       >
         {item}
       </a>
