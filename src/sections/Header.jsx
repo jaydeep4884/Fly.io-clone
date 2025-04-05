@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Dialog, DialogPanel, Popover, PopoverGroup } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import { Dropdown } from "./Dropdown";
+import { Dropdown } from "../components/Dropdown";
 import { Container } from "@mui/material";
 
 const navMenu = [

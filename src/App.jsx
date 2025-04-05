@@ -1,7 +1,7 @@
 import "./App.css";
 import "@fontsource/bricolage-grotesque";
-import Header from "./components/Header";
-import Developers from "./components/Developers";
+import Header from "./sections/Header";
+import Developers from "./sections/Developers";
 
 function App() {
   return (
