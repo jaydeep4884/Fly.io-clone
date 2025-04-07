@@ -2,9 +2,9 @@ import React from "react";
 import { Box, Container } from "@mui/material";
 import Primarybtn from "../components/Primarybtn";
 
-function Developers(props) {
+function Developers() {
   return (
-    <Box>
+    <Box className="my-32">
       <Container maxWidth>
         <Box
           aria-label="Global"
@@ -21,13 +21,12 @@ function Developers(props) {
                 support and guaranteed response times available.
               </p>
               <Primarybtn name="Learn More" />
-
             </Box>
             <Box className="w-[44%]">
               <img
                 className="h-auto w-full bg-cover"
                 src="https://fly.io/phx/ui/images/cool-bird-d997174954ab5a152ccac3d2dcb19c8d.png?vsn=d"
-                alt=""
+                alt="Support by Developers"
               />
             </Box>
           </Box>
