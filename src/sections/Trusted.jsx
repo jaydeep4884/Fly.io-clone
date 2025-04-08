@@ -5,7 +5,7 @@ import Carousal from "../components/Carousal";
 
 function Trusted() {
   return (
-    <Box className="my-32">
+    <Box className="my-3">
       <Container maxWidth>
         <Box aria-label="Global" className="mx-auto  max-w-7xl  lg:px-8">
           <Box>
