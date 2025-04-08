@@ -6,13 +6,15 @@ import Footer from "./sections/Footer";
 import Trusted from "./sections/Trusted";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Framework from "./sections/Framework";
 
 function App() {
   return (
     <div>
       <Header />
-      <Trusted />
       <Developers />
+      <Framework />
+      <Trusted />
       <Footer />
     </div>
   );

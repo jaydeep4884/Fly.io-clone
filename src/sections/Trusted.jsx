@@ -2,10 +2,9 @@ import { Box, Container } from "@mui/material";
 import React from "react";
 import Carousal from "../components/Carousal";
 
-
 function Trusted() {
   return (
-    <Box className="my-3">
+    <Box className="mt-24">
       <Container maxWidth>
         <Box aria-label="Global" className="mx-auto  max-w-7xl  lg:px-8">
           <Box>

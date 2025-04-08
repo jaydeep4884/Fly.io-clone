@@ -31,7 +31,7 @@ function Footer() {
   ];
 
   return (
-    <footer className="bg-[#191034] text-[#a39ac1] pt-20 pb-8">
+    <footer className="bg-[#191034] text-[#a39ac1] pt-20 pb-8 mt-32">
       <Container maxWidth>
         <Box aria-label="Global" className="mx-auto max-w-7xl lg:px-8">
           <Box className="grid grid-cols-6 gap-x-10 items-start pb-20">
