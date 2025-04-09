@@ -2,7 +2,7 @@ import React from "react";
 function Primarybtn(props) {
   return (
     <div>
-      <button className="group border border-white/25 elative flex items-center gap-1 bg-[#7c3aed] text-white font-medium px-5 py-3 rounded-full hover:bg-[#6933c7] transition-all duration-300">
+      <button className="group border border-white/25 elative flex items-center gap-1 bg-[#7c3aed] text-white font-medium px-5 py-2.5 rounded-full hover:bg-[#6933c7] transition-all duration-300">
         <span>{props.name}</span>
         <span className="relative w-4 h-4 overflow-hidden">
           {/* Small arrow default */}
