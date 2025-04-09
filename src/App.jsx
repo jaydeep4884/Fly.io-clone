@@ -9,6 +9,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Framework from "./sections/Framework";
 import Machine from "./sections/Machine";
 import SendBox from "./sections/SendBox";
+import Secure from "./sections/Secure";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Header />
       <SendBox />
       <Developers />
+      <Secure />
       <Trusted />
       <Framework />
       <Machine />
