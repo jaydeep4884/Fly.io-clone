@@ -10,11 +10,13 @@ import Framework from "./sections/Framework";
 import Machine from "./sections/Machine";
 import SendBox from "./sections/SendBox";
 import Secure from "./sections/Secure";
+import Hero from "./sections/Hero";
 
 function App() {
   return (
     <div>
       <Header />
+      <Hero />
       <SendBox />
       <Developers />
       <Secure />

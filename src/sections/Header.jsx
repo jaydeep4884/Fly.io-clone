@@ -48,7 +48,7 @@ export default function Header() {
           </div>
 
           {/* Desktop nav */}
-          <PopoverGroup className="hidden xl:flex items-center rounded-full bg-white/75 bg-gradient-to-r from-pink-200/40 via-violet-200/40 to-indigo-200/40 border border-white/50 px-3 text-sm font-medium text-gray-800 shadow-[0px_10px_100px_rgba(236,72,153,0.6)] ring-1 ring-gray-800/[.075] backdrop-blur-xl">
+          <PopoverGroup className="hidden xl:flex items-center rounded-full bg-white/75 bg-gradient-to-r from-pink-200/40 via-violet-200/40 to-indigo-200/40 border border-white/50 px-3 text-sm font-medium text-gray-800 shadow-[0px_20px_100px_rgba(236,72,153,0.8)] ring-1 ring-gray-800/[.075] backdrop-blur-xl">
             <Popover className="relative">
               <Dropdown />
             </Popover>
